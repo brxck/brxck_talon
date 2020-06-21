@@ -7,12 +7,12 @@ tag(): user.code_comment
 tag(): user.code_generic
 
 settings():
-    user.code_private_function_formatter = "CAMEL_CASE"
-    user.code_protected_function_formatter = "CAMEL_CASE"
-    user.code_public_function_formatter = "CAMEL_CASE"
-    user.code_private_variable_formatter = "CAMEL_CASE"
-    user.code_protected_variable_formatter = "CAMEL_CASE"
-    user.code_public_variable_formatter = "CAMEL_CASE"
+    user.code_private_function_formatter = "PRIVATE_CAMEL_CASE"
+    user.code_protected_function_formatter = "PRIVATE_CAMEL_CASE"
+    user.code_public_function_formatter = "PRIVATE_CAMEL_CASE"
+    user.code_private_variable_formatter = "PRIVATE_CAMEL_CASE"
+    user.code_protected_variable_formatter = "PRIVATE_CAMEL_CASE"
+    user.code_public_variable_formatter = "PRIVATE_CAMEL_CASE"
 
 action(user.code_is_not_null): " !== null"
 
@@ -79,8 +79,8 @@ action(user.code_state_for_each):
 
 action(user.code_null): "null"
 
-action(user.code_private_function): ""
-action(user.code_protected_function): ""
+action(user.code_private_function): "function "
+action(user.code_protected_function): "function "
 action(user.code_public_function): "function "
 
 action(user.code_operator_indirection): ""
