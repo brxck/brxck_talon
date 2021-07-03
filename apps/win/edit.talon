@@ -1,5 +1,4 @@
 os: windows
-os: linux
 -
 action(edit.copy):
 	key(ctrl-c)
