@@ -86,8 +86,8 @@ oath: oauth
 ide: id
 greptile
 life cycle: lifecycle
-sink,sync
-sinking,syncing
-sinker,syncer
-micro ORM,mikro-orm
-clod,claude
+sink: sync
+sinking: syncing
+sinker: syncer
+micro O R M: mikro-orm
+clod: claude
