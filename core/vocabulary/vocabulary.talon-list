@@ -87,3 +87,7 @@ ide: id
 greptile
 life cycle: lifecycle
 sink,sync
+sinking,syncing
+sinker,syncer
+micro ORM,mikro-orm
+clod,claude

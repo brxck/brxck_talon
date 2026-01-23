@@ -15,3 +15,6 @@ graph modify and submit:
 
 graph {user.graphite}:
     insert("gt {graphite}")
+
+graph checkout main:
+    insert("gt checkout main")
