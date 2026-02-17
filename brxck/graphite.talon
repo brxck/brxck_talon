@@ -18,3 +18,7 @@ graph {user.graphite}:
 
 graph checkout main:
     insert("gt checkout main")
+
+graph track [<user.text>]:
+    insert("gt track -p ")
+    insert(text or "")
