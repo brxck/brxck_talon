@@ -12,6 +12,7 @@ modify
 move
 P R: pr
 parent
+reorder
 restack
 submit
 submit stack: submit --stack
