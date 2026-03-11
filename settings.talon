@@ -90,7 +90,7 @@ settings():
     # before inserting. This can be slow and may not work in some applications. You may
     # wish to enable this on a per-application basis.
     user.context_sensitive_dictation = true
-    user.accessibility_dictation = 1
+    # user.accessibility_dictation = 1
 
     # Choose how to resize windows moved across physical screens (eg. via `snap next`).
     # Default is 'proportional', which preserves window size : screen size ratio.
@@ -108,6 +108,9 @@ settings():
 # See issue #688 for more detail: https://github.com/talonhub/community/issues/688
 # tag(): user.mouse_cursor_commands_enable
 
+
+# Enable deep sleep to prevent accidental wake-ups. Say "wake up and listen" to wake.
+tag(): user.deep_sleep
 
 # Uncomment below enable pop_twice_to_wake
 # Without this tag noise_trigger_pop is usually associated with pop to click actions
