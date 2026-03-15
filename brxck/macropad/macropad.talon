@@ -4,6 +4,13 @@
 # B   C   D   E
 # W   X   Y   Z
 
+# Corne
+
+# Left         Right
+# Y/X   ...   C
+# Z     ...   D
+# `W    ...   E
+
 
 # key(cmd-shift-alt-ctrl-a):
 
@@ -17,11 +24,16 @@ key(cmd-shift-alt-ctrl-d):
 key(cmd-shift-alt-ctrl-e):
   user.desktop_next()
 
-key(cmd-shift-alt-ctrl-w:down):
-    user.wispr_toggle_down()
+# alt shift W
+key(alt-shift-W:down):
+  user.wispr_toggle_down()
+key(fn:down):
+  user.wispr_toggle_down()
 
-key(cmd-shift-alt-ctrl-w:up):
-    user.wispr_toggle_up()
+key(alt-shift-W:up):
+  user.wispr_toggle_up()
+key(fn:up):
+  user.wispr_toggle_up()
 
 key(cmd-shift-alt-ctrl-x):
   user.cancel_current_phrase()

@@ -48,9 +48,7 @@ clode M C P:
 clode memory:
     key(ctrl-u)
     insert("/memory")
-clode model:
-    key(ctrl-u)
-    insert("/model")
+clode model: key(alt-p)
 clode permissions:
     key(ctrl-u)
     insert("/permissions")
